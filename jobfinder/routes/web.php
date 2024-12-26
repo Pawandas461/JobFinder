@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('customer', function(){
+Route::get('/candidate', function(){
     return view('candidate.index');
 });
